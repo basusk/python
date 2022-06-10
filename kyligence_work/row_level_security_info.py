@@ -10,7 +10,7 @@ import json
 import ConfigParser
 
 config = ConfigParser.ConfigParser()
-config.readfp(open(r'useracl_test_15apr22.ini'))
+config.readfp(open(r'useracl_test_cfg.ini'))
 
 host = config.get('connection', 'host')
 port = config.get('connection', 'port')
