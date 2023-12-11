@@ -1,0 +1,25 @@
+No. of dimensions = 23
+DimensionId: CapitalType; DimensionName: CapitalType
+DimensionId: Company; DimensionName: Company
+DimensionId: Cost Indicator; DimensionName: Position status - active only
+DimensionId: Currency; DimensionName: Currency
+DimensionId: EffectiveDate; DimensionName: EffectiveDate
+DimensionId: EffectiveReferenceDate; DimensionName: EffectiveReferenceDate
+DimensionId: Feeder; DimensionName: Feeder
+DimensionId: GLDate; DimensionName: GLDate
+DimensionId: GLReferenceDate; DimensionName: GLReferenceDate
+DimensionId: Deal; DimensionName: GPFund
+DimensionId: SpecDeal; DimensionName: GPFundProgramSpecific
+DimensionId: SpecDealTopLevel; DimensionName: GPFundProgramSpecificTopLevel
+DimensionId: Investor; DimensionName: Investor
+DimensionId: LastUpdated; DimensionName: LastUpdated
+DimensionId: LegalEntity; DimensionName: LGTInvestmentProduct
+DimensionId: LegalEntityCurrency; DimensionName: LGTInvestmentProductCurrency
+DimensionId: LGTInvestmentProductIntermediate; DimensionName: LGTInvestmentProductIntermediate
+DimensionId: CommonVehicle; DimensionName: LGTInvestmentProductShareClass
+DimensionId: LookthroughHierarchy; DimensionName: LookthroughHierarchy
+DimensionId: SpecPosition; DimensionName: PositionProgramSpecific
+DimensionId: PositionStatus; DimensionName: PositionStatus
+DimensionId: ValuationDate; DimensionName: ValuationDate
+DimensionId: YearGrouping; DimensionName: YearGrouping
+

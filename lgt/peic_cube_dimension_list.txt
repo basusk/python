@@ -1,0 +1,25 @@
+No. of Cube Dimensions = 23
+CubeDimensionId: LegalEntity; CubeDimensionName: LGT Investment Product
+CubeDimensionId: Deal; CubeDimensionName: GP Fund
+CubeDimensionId: Company; CubeDimensionName: Company
+CubeDimensionId: ValuationDate; CubeDimensionName: Valuation Date
+CubeDimensionId: SpecDeal; CubeDimensionName: GP Fund - Program Specific
+CubeDimensionId: SpecPosition; CubeDimensionName: Position - Program Specific
+CubeDimensionId: PositionStatus; CubeDimensionName: Position Status
+CubeDimensionId: LookthroughHierarchy; CubeDimensionName: Lookthrough Hierarchy
+CubeDimensionId: SpecDealTopLevel; CubeDimensionName: GP Fund - Program Specific - Top Level
+CubeDimensionId: YearGrouping; CubeDimensionName: Year Grouping
+CubeDimensionId: EffectiveDate; CubeDimensionName: Effective Date
+CubeDimensionId: EffectiveReferenceDate; CubeDimensionName: Effective Reference Date
+CubeDimensionId: GLReferenceDate; CubeDimensionName: GL Reference Date
+CubeDimensionId: CommonVehicle; CubeDimensionName: LGT Investment Product Share Class
+CubeDimensionId: Investor; CubeDimensionName: Investor
+CubeDimensionId: Currency; CubeDimensionName: Currency
+CubeDimensionId: LegalEntityCurrency; CubeDimensionName: LGT Investment Product Currency
+CubeDimensionId: Feeder; CubeDimensionName: Feeder
+CubeDimensionId: LGTInvestmentProductIntermediate; CubeDimensionName: LGTInvestmentProductIntermediate
+CubeDimensionId: LastUpdated; CubeDimensionName: LastUpdated
+CubeDimensionId: CapitalType; CubeDimensionName: CapitalType
+CubeDimensionId: GLDate; CubeDimensionName: GL Date
+CubeDimensionId: Cost Indicator; CubeDimensionName: Position status - active only
+
