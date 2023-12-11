@@ -1,0 +1,22 @@
+#########################################################################################
+########Configuration parameters for users.py, user acl json parser 
+########Author: Saikat Basu, Senior Solution Architect, Kyligence Inc.
+########Version 1: Dated 26th March, 2021
+#########################################################################################
+######## Only change host, workspace name, project name and Authorization string ########
+
+[connection]
+host = http://saika-kcloa-u59z711qbghp-2105854280.us-west-1.elb.amazonaws.com
+port = 8079
+workspace = saikatkcha
+project = test
+
+[api]
+user_api = api/users
+acl_api = kylin/api/acl/sid/user
+
+[header]
+Accept = application/vnd.apache.kylin-v4-public+json
+Accept-Language = en
+Content-Type = application/json;charset=utf-8
+Authorization = Basic QURNSU46d1JSdGt3JUN1QzRA

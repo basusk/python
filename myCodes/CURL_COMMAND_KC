@@ -1,0 +1,25 @@
+:qcurl --location --request POST  'http://kc.devky.devbi.appzen.com:8079/api/spark_source/workspaces/amz/execute'  -H 'Accept: application/vnd.apache.kylin-v4-public+json'  -H 'Accept-Language: en'  -H 'Authorization: Basic QURNSU46WEpDWGFbKjA='  -H 'Content-Type: application/json;charset=utf-8'  -d '{"database":"SSB","sql":"create table SSB.MYTABLE(ColA int) location '\''s3://appzen-devbi-devky-amz/kylin/amzrRVI_kylin/saikat/'\''"}'
+
+
+c2Fpa2F0LmJhc3U6S3lsaWdlbmNlQDIwMjE=
+
+
+
+
+curl -X POST 'http://kc.devky.devbi.appzen.com:8079/api/spark_source/workspaces/amz/execute'  -H 'Accept: application/vnd.apache.kylin-v4-public+json'  -H 'Accept-Language: en'  -H 'Authorization: Basic QURNSU46WEpDWGFbKjA='  -H 'Content-Type: application/json;charset=utf-8'  -d '{"database":"SSB","sql":"create table SSB.MYTABLE(ColA int) location '\''s3://appzen-devbi-devky-amz/kylin/amzrRVI_kylin/saikat/'\''"}'
+
+
+curl --location --request POST  'http://kc.devky.devbi.appzen.com:8079/api/tables/workspaces/amz/load'  -H 'Accept: application/vnd.apache.kylin-v4-public+json'  -H 'Accept-Language: en'  -H 'Authorization: Basic QURNSU46WEpDWGFbKjA='  -H 'Content-Type: application/json;charset=utf-8'  -d '{"datasource_type": 9,"project":"devkyenft2", "tables":["SSB.MYTABLE"], "need_sampling": true, "sampling_rows":10000}'
+{"code":"000","data":{"loaded":["SSB.MYTABLE"],"failed":[]},"msg":""}
+
+
+curl --location --request POST  'http://kc.devky.devbi.app:zen.com:8079/api/tables/workspaces/amz/load'  -H 'Accept: application/vnd.apache.kylin-v4-public+json'  -H 'Accept-Language: en'  -H 'Authorization: Basic QURNSU46WEpDWGFbKjA='  -H 'Content-Type: application/json;charset=utf-8'  -d '{"datasource_type": 9,"project":"devkyenft2", "tables":["TEST.MYTABLE1"], "need_sampling": true, "sampling_rows":10000}'
+{"code":"000","data":{"loaded":["TEST.MYTABLE1"],"failed":[]},"msg":""}AppZenLoaner:saikat_queries kyligence$ curl --location --request POST  'http://kc.devky.devbi.appzen.com:80kylin-v4-public+json'  -H 'Accept-Language: en'  -H 'Authorization: Basic QURNSU46WEpDWGFbKjA='  -H 'Content-Type: application/json;charset=utf-8'  -d '{"datasource_type": 9,"project":"devkyenft2", "tables":["TEST.MYTABLE2"], "need_sampling": true, "sampling_rows":10000}'
+{"code":"000","data":{"loaded":["TEST.MYTABLE2"],"failed":[]},"msg":""}AppZenLoaner:saikat_queries kyligence$
+
+ curl -X DELETE 'http://kc.devky.devbi.appzen.com:8079/api/source_file/workspaces/amz/drop_tables'  -H 'Accept: application/vnd.apache.kylin-v4-public+json'  -H 'Accept-Language: en'  -H 'Authorization: Basic QURNSU46WEpDWGFbKjA='  -H 'Content-Type: application/json;charset=utf-8'  -d '{"databases":[],"tables":["TEST.MYTABLE1"],"retain_databases":true}'
+{"datas":[{"succeed":{"drop table if exists TEST.MYTABLE1":"Table or view TEST.MYTABLE1 was dropped successfully"},"failed":{}}],"msg":null,"code":"000","totalRecords":null}
+
+
+curl -X DELETE 'http://kc.devky.devbi.appzen.com:8079/api/source_file/workspaces/amz/drop_tables'  -H 'Accept: application/vnd.apache.kylin-v4-public+json'  -H 'Accept-Language: en'  -H 'Authorization: Basic QURNSU46WEpDWGFbKjA='  -H 'Content-Type: application/json;charset=utf-8'  -d '{"databases":["TEST"],"tables":["TEST.MYTABLE1"],"retain_databases":true}'
+{"datas":[{"succeed":{"drop table if exists TEST.MYTABLE2":"Table or view TEST.MYTABLE2 was dropped successfully","drop table if exists TEST.MYTABLE1":"Table or view TEST.MYTABLE1 was dropped successfully"},"failed":{}}],"msg":null,"code":"000","totalRecords":null}
