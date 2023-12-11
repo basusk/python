@@ -1,0 +1,198 @@
+2023-08-03 14:08:05.344258 Sending Get Model List API: http://20.168.154.178:7070/kylin/api/models?project=saikatProj1
+
+2023-08-03 14:08:05.700996 List of online models: 
+
+2023-08-03 14:08:05.701010 ['movies25m_forJobTesting', 'movies25m']
+2023-08-03 14:08:05.701566 Number of online models = 2
+2023-08-03 14:08:05.701576 Number of models: 2
+2023-08-03 14:08:05.701579 Submitting data load job for model ==> movies25m_forJobTesting
+2023-08-03 14:08:05.701585 Sending Job Submission API: http://20.168.154.178:7070/kylin/api/models/movies25m_forJobTesting/segments
+
+2023-08-03 14:08:08.492246 Jobs ==> 1
+2023-08-03 14:08:08.492274 Job submitted successfully
+2023-08-03 14:08:08.492300Job ID: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:08:08.492452 Submitting data load job for model ==> movies25m
+2023-08-03 14:08:08.492471 Sending Job Submission API: http://20.168.154.178:7070/kylin/api/models/movies25m/segments
+
+2023-08-03 14:08:08.901692 Jobs ==> 1
+2023-08-03 14:08:08.901721 Job submitted successfully
+2023-08-03 14:08:08.901734Job ID: 86a688c8-1a8d-d596-d32a-d296c0166a5f-3d7b7aa8-598c-5144-a7e2-b7f70f6d70fb
+2023-08-03 14:08:08.901895 SUBMITTED JOB IDS: ['e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7', '86a688c8-1a8d-d596-d32a-d296c0166a5f-3d7b7aa8-598c-5144-a7e2-b7f70f6d70fb']
+2023-08-03 14:08:08.901921 Checking running job status......
+2023-08-03 14:08:38.904138Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:08:38.904180 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:08:38.988283 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:11:38.987754Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:11:38.987810 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:11:39.186463 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:14:39.184024Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:14:39.184079 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:14:39.576355 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:17:39.580009Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:17:39.580065 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:17:39.859361 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:23:33.596872Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:23:33.597037 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:23:33.777877 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:26:33.781444Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:26:33.781570 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:26:33.952003 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:29:33.957400Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:29:33.957455 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:29:34.139233 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:32:34.142879Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:32:34.142936 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:32:34.322946 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:35:34.327749Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:35:34.327807 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:35:34.509318 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:38:34.513724Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:38:34.513784 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:38:34.632824 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:41:34.642479Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:41:34.642509 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:41:34.733252 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:44:34.739898Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:44:34.739951 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:44:34.821127 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:47:34.825170Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:47:34.825226 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:47:34.898684 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:50:34.901113Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:50:34.901172 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:50:34.991292 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:53:34.994852Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:53:34.994906 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:53:35.077269 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:56:35.124339Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:56:35.126462 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:56:35.211613 Job running, waiting for 3 minutes before checking again..
+2023-08-03 14:59:35.219057Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 14:59:35.219118 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 14:59:35.316006 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:02:35.320728Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:02:35.320782 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:02:35.401598 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:05:35.410591Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:05:35.411684 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:05:35.590457 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:08:35.594596Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:08:35.594653 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:08:35.756316 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:11:35.757147Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:11:35.757205 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:11:35.963105 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:14:35.968120Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:14:35.968176 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:14:36.151945 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:17:36.157672Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:17:36.157771 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:17:36.368557 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:20:36.376264Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:20:36.376322 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:20:36.567759 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:23:36.572957Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:23:36.573034 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:23:36.753316 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:26:36.822791Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:26:36.822849 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:26:37.016501 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:29:37.022143Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:29:37.022203 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:29:37.271320 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:32:37.276767Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:32:37.276823 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:32:37.470481 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:35:37.479909Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:35:37.479998 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:35:37.676453 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:38:37.684844Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:38:37.684902 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:38:38.237421 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:41:38.245356Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:41:38.245411 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:41:38.445399 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:44:38.453621Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:44:38.453677 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:44:38.612397 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:47:38.622893Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:47:38.622946 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:47:38.789988 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:50:38.794303Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:50:38.794425 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:50:38.988030 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:53:38.992658Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:53:38.992701 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:53:39.216230 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:56:39.259104Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:56:39.259200 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:56:39.423123 Job running, waiting for 3 minutes before checking again..
+2023-08-03 15:59:39.428725Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 15:59:39.428781 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 15:59:39.629454 Job running, waiting for 3 minutes before checking again..
+2023-08-03 16:02:39.634042Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 16:02:39.634117 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 16:02:39.808727 Job running, waiting for 3 minutes before checking again..
+2023-08-03 16:05:39.814113Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 16:05:39.814185 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 16:05:40.021326 Job running, waiting for 3 minutes before checking again..
+2023-08-03 16:08:40.025687Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 16:08:40.025749 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 16:08:40.209936 Job running, waiting for 3 minutes before checking again..
+2023-08-03 16:11:40.217759Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 16:11:40.217816 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 16:11:40.396429 Job running, waiting for 3 minutes before checking again..
+2023-08-03 16:14:40.400125Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 16:14:40.400214 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 16:14:40.590832 Job running, waiting for 3 minutes before checking again..
+2023-08-03 16:17:40.596378Checking status for job with job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+2023-08-03 16:17:40.596434 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7
+
+2023-08-03 16:17:40.986676Job id: e13a326e-1f9f-5c4e-f933-b35caaf60e1c-edd8bbcd-475f-b6ff-5e90-0b2ff016cda7 completed
+2023-08-03 16:17:40.986738Checking status for job with job id: 86a688c8-1a8d-d596-d32a-d296c0166a5f-3d7b7aa8-598c-5144-a7e2-b7f70f6d70fb
+2023-08-03 16:17:40.986753 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=86a688c8-1a8d-d596-d32a-d296c0166a5f-3d7b7aa8-598c-5144-a7e2-b7f70f6d70fb
+
+2023-08-03 16:17:41.071869Job id: 86a688c8-1a8d-d596-d32a-d296c0166a5f-3d7b7aa8-598c-5144-a7e2-b7f70f6d70fb completed
+2023-08-03 16:17:41.071892 All jobs completed successfully, exiting......

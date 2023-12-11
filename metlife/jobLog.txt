@@ -1,0 +1,56 @@
+2023-07-28 14:31:02.684818 Sending Get Model List API: http://20.168.154.178:7070/kylin/api/models?project=saikatProj1
+
+2023-07-28 14:31:02.982855 List of online models: 
+
+2023-07-28 14:31:02.982868 ['sm10', 'sm', 'model_new_ssb']
+2023-07-28 14:31:02.983427 Number of online models = 3
+2023-07-28 14:31:02.983437 Number of models: 3
+2023-07-28 14:31:02.983440 Submitting data load job for model ==> sm10
+2023-07-28 14:31:02.983445 Sending Job Submission API: http://20.168.154.178:7070/kylin/api/models/sm10/segments
+
+2023-07-28 14:31:03.194681 Jobs ==> 1
+2023-07-28 14:31:03.194710 Job submitted successfully
+2023-07-28 14:31:03.194724Job ID: 717fa2da-b1cd-cab4-3a6b-bc66750a5587-28c79386-ea97-71c4-9f12-c873a2187078
+2023-07-28 14:31:03.194853 Submitting data load job for model ==> sm
+2023-07-28 14:31:03.194872 Sending Job Submission API: http://20.168.154.178:7070/kylin/api/models/sm/segments
+
+2023-07-28 14:31:03.575379 Jobs ==> 1
+2023-07-28 14:31:03.575407 Job submitted successfully
+2023-07-28 14:31:03.575419Job ID: 4dcfff07-ef32-de25-16dc-ec8f7a2fd27f-010e5168-7e9e-851f-6061-913ea56d94bf
+2023-07-28 14:31:03.575569 Submitting data load job for model ==> model_new_ssb
+2023-07-28 14:31:03.575590 Sending Job Submission API: http://20.168.154.178:7070/kylin/api/models/model_new_ssb/segments
+
+2023-07-28 14:31:03.808121 Jobs ==> 1
+2023-07-28 14:31:03.808152 Job submitted successfully
+2023-07-28 14:31:03.808165Job ID: e19e4f1b-f3ca-a8db-9d44-c057e0c60892-8acf268c-f279-198d-8805-6aa033453680
+2023-07-28 14:31:03.808327 SUBMITTED JOB IDS: ['717fa2da-b1cd-cab4-3a6b-bc66750a5587-28c79386-ea97-71c4-9f12-c873a2187078', '4dcfff07-ef32-de25-16dc-ec8f7a2fd27f-010e5168-7e9e-851f-6061-913ea56d94bf', 'e19e4f1b-f3ca-a8db-9d44-c057e0c60892-8acf268c-f279-198d-8805-6aa033453680']
+2023-07-28 14:31:03.808352 Checking running job status......
+2023-07-28 14:31:33.810057Checking status for job with job id: 717fa2da-b1cd-cab4-3a6b-bc66750a5587-28c79386-ea97-71c4-9f12-c873a2187078
+2023-07-28 14:31:33.810133 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=717fa2da-b1cd-cab4-3a6b-bc66750a5587-28c79386-ea97-71c4-9f12-c873a2187078
+
+2023-07-28 14:31:33.884787 Job running, waiting for a minute before checking again..
+2023-07-28 14:32:33.889264Checking status for job with job id: 717fa2da-b1cd-cab4-3a6b-bc66750a5587-28c79386-ea97-71c4-9f12-c873a2187078
+2023-07-28 14:32:33.889319 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=717fa2da-b1cd-cab4-3a6b-bc66750a5587-28c79386-ea97-71c4-9f12-c873a2187078
+
+2023-07-28 14:32:34.086911 Job running, waiting for a minute before checking again..
+2023-07-28 14:33:34.091273Checking status for job with job id: 717fa2da-b1cd-cab4-3a6b-bc66750a5587-28c79386-ea97-71c4-9f12-c873a2187078
+2023-07-28 14:33:34.091328 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=717fa2da-b1cd-cab4-3a6b-bc66750a5587-28c79386-ea97-71c4-9f12-c873a2187078
+
+2023-07-28 14:33:34.266664 Job running, waiting for a minute before checking again..
+2023-07-28 14:34:34.266634Checking status for job with job id: 717fa2da-b1cd-cab4-3a6b-bc66750a5587-28c79386-ea97-71c4-9f12-c873a2187078
+2023-07-28 14:34:34.266690 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=717fa2da-b1cd-cab4-3a6b-bc66750a5587-28c79386-ea97-71c4-9f12-c873a2187078
+
+2023-07-28 14:34:34.472636 Job running, waiting for a minute before checking again..
+2023-07-28 14:35:34.473831Checking status for job with job id: 717fa2da-b1cd-cab4-3a6b-bc66750a5587-28c79386-ea97-71c4-9f12-c873a2187078
+2023-07-28 14:35:34.473885 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=717fa2da-b1cd-cab4-3a6b-bc66750a5587-28c79386-ea97-71c4-9f12-c873a2187078
+
+2023-07-28 14:35:34.747107Job id: 717fa2da-b1cd-cab4-3a6b-bc66750a5587-28c79386-ea97-71c4-9f12-c873a2187078 completed
+2023-07-28 14:35:34.747278Checking status for job with job id: 4dcfff07-ef32-de25-16dc-ec8f7a2fd27f-010e5168-7e9e-851f-6061-913ea56d94bf
+2023-07-28 14:35:34.747299 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=4dcfff07-ef32-de25-16dc-ec8f7a2fd27f-010e5168-7e9e-851f-6061-913ea56d94bf
+
+2023-07-28 14:35:34.836523Job id: 4dcfff07-ef32-de25-16dc-ec8f7a2fd27f-010e5168-7e9e-851f-6061-913ea56d94bf completed
+2023-07-28 14:35:34.836559Checking status for job with job id: e19e4f1b-f3ca-a8db-9d44-c057e0c60892-8acf268c-f279-198d-8805-6aa033453680
+2023-07-28 14:35:34.836574 Sending Get Job List API: http://20.168.154.178:7070/kylin/api/jobs?time_filter=4&page_size=10000&project=saikatProj1&key=e19e4f1b-f3ca-a8db-9d44-c057e0c60892-8acf268c-f279-198d-8805-6aa033453680
+
+2023-07-28 14:35:34.917306Job id: e19e4f1b-f3ca-a8db-9d44-c057e0c60892-8acf268c-f279-198d-8805-6aa033453680 completed
+2023-07-28 14:35:34.917341 All jobs completed successfully, exiting......
